@@ -1,0 +1,16 @@
+.bookContainer {
+    width: 300px;
+    height: 400px;
+    border: solid 1px;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    flex-basis: 30%;
+}
+
+@media only screen and (max-width: 768px) {
+    .bookContainer {
+        flex-basis: 45%;
+    }
+}
